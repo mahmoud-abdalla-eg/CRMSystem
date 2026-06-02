@@ -32,7 +32,7 @@ java -cp bin main.Main
 
 ## Web View
 
-The React + Vite web version can be viewed using the Vercel link provided with the submission.
+The React + Vite web version can be viewed By https://crm-system-mahmoud.vercel.app.
 
 ## Project Structure
 
