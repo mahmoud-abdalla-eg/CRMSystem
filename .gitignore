@@ -1,0 +1,14 @@
+# Java build output
+bin/
+*.class
+
+# Node / Vite web view
+crm-web/node_modules/
+crm-web/dist/
+crm-web/.vite/
+
+# Generated report files
+Report
+
+# Office temporary files
+~$*
