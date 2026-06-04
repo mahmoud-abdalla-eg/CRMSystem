@@ -32,7 +32,25 @@ java -cp bin main.Main
 
 ## Web View
 
-The React + Vite web version can be viewed By https://crm-system-mahmoud.vercel.app.
+The React + Vite web version is deployed here:
+
+```text
+https://crm-system-mahmoud.vercel.app
+```
+
+## Run the Tests
+
+```bash
+javac -d bin -sourcepath "src;test" src\models\Customer.java src\models\Interaction.java src\utils\DataStore.java test\CRMSystemTest.java
+java -cp bin CRMSystemTest
+```
+
+Expected result:
+
+```text
+Passed: 4
+Failed: 0
+```
 
 ## Project Structure
 
@@ -44,6 +62,8 @@ CRMSystem/
 |   |-- models/Interaction.java
 |   |-- views/MainFrame.java
 |   |-- utils/DataStore.java
+|-- test/
+|   |-- CRMSystemTest.java
 |-- crm-web/
 |   |-- src/main.jsx
 |   |-- src/styles.css
